@@ -1,0 +1,192 @@
+
+	Wyglad
+	=========================================================
+
+		Okno rozmowy
+			Kolor wiadomosci i okna rozmowy
+			Style okna rozmowy
+			Emotikony
+		Lista kontaktow
+			Kolor tekstu i tla okna kontaktow
+			Opcje listy wplywajace na wyglad
+			Graficzne tla okna kontaktow		
+			Zmiana ikon na liscie kontaktow - Favicon
+		
+		Zmiana ikon w Konnekcie
+		Skorki powiadomien kNotify
+		Przezroczystosc
+		
+		Przewodniki po tworzeniu dodatkow
+			Paczki emotikon
+			Style CSS okna rozmowy
+			Skorki kNotify
+			Paczki ikon kStyle
+			Paczki kSound
+
+
+	Konfiguracja
+	=========================================================
+	
+		
+		Okno konfiguracji
+		Personalizowanie ustawien dla kontaktow
+		
+		Uruchamianie
+		Polaczenie
+		Zasobnik systemowy
+			Ikona
+			Wszystkie ikony sieci - kPaleta
+			Menu programu
+			
+		Skróty klawiaturowe - kLawa
+		
+		Profil
+			Tworzenie i usuwanie profilow
+			Zabezpieczenie haslem
+			Poziomy zaawansowania
+			Edycja danych uzytkownika profilu
+		
+		Lista kontaktow
+			Dokowanie okna
+			Opisy
+				Ustawienia
+				Wielopoziomowe opisy
+				Linki w opisach
+			Ikony informacyjne
+			Ustawienia ikon			
+			Grupy kontaktow
+			Zaawansowae grupowanie kontaktow - sprzataczK
+			Metakontakty - metaK
+			Filtrowanie
+			Tworzenie skrotow do programow, katalogow i stron - Favorki
+			Dodawanie automatycznych skryptow jako kontakty - Checky
+			
+		Rozmowa
+			Zakladki w oknie rozmowy
+			Formatowanie tekstu
+			Blokowanie osob nieznajomych
+			Autoresponder - kAway2
+			Powiadamianie o statusie i opisie
+			Grupowanie wiadomosci w oknie
+			Zapamietywanie, czyzsczenie oraz przywracanie rozmowy
+			
+		Statusy i opisy	
+			Zmiana statusu w sieci
+			Zmiana statusu na wszystkich sieciach - kZmieniacz
+			Zapisanie stalych opisow dla statusow
+			Moj status i opis na liscie kontaktow
+			Powiadomienia o zmianach statusow i opisow
+				Powiadomienie graficzne - kNotify
+				Powiadomienie w oknie rozmowy
+				Powiadomienie diodami na klawiaturze - kMigacz
+			Autoaway
+			Rozszerzony autoaway - kAway2
+			Zapisywanie statusow i opisow do historii - kStatusLog
+			Zaawansowane zarz¹dzanie opisami - FunK
+			
+		Kontakty
+			Dodawanie kontaktu
+			Edycja kontaktu
+			Usuwanie kontaktu
+			Ignorowanie kontaktu
+			Zaawansowanie ignorowanie kontaktu/kontaktow - olew.K
+			Szukanie kontaktow
+				Katalog uzytkownikow Jabbera
+			Metakontakty
+			Personalizacja ustawien wtyczek
+			Autoryzacja kontaktow
+				Jabber
+				Tlen
+			Sprawdzanie kto mnie ma na liscie - GetToKnow
+			
+		Wiadomosci
+			Wiadomosc z tematem - temaciK
+			Powiadomenia o wiadomosciach
+				Graficzne powiadomienia nad trayem - kNotify
+				Pikanie glosnikiem systemowym - K++
+				Powiadomienia dzwiekiem - kSound
+				Powiadomienie ikona w trayu - Favicon
+				Miganie ikony na liscie kontaktow
+			Historia wiadomosci
+				Zapis i usuwanie wiadomosci
+				Eksport wiadomosci
+				Wyszukiwanie wiadomosci
+				Wiadomosci usuniete
+
+		Backup
+			Eksport/import ustawien oraz listy kontaktow przez exPIMP
+			Zapis ustawien wygladu - kStyle
+			Automatyczne tworzenie kopii zapasowej profilu - K++
+			Automatyczne tworzenie kopii zapasowej profilu - Checky
+			
+		Sieci
+			Gadu-Gadu
+				Konto
+					Zalozenie
+					Zmiana hasla
+				Eksport i import listy kontaktow
+				Import archiwum z Gadu-Gadu do Konnekta
+				Wysylanie bardzo dlugiej wiadomosci - DzielniK
+				Wysylanie obrazkow - GGImage
+				Szyfrowanie wiadomosci - GGCrypt
+				Wysylanie plikow - kTransfer
+				Konferencje - KONNferencja
+				Kto mnie ma na liscie - GetToKnow
+			Jabber
+				Konto
+					Zalozenie
+					Zmiana hasla
+				Korzystanie z wielu serwerow na raz
+				Korzystanie z przegladarki uslug serwera
+				Katalog uzytkownikow
+				Ustawianie opisu
+				Konsola
+				Autoryzacja kontaktow
+				Synchronizacja listy kontaktow
+			Tlen
+				Autoryzacja kontaktow
+				Synchronizacja listy kontaktow
+			Inne sieci
+				Transport AIM na serwerze Jabbera
+				Transport ICQ na serwerze Jabbera
+				Transport YIM na serwerze Jabbera
+				Transport MSN na serwerze Jabbera
+			
+		Aktualizacje
+			Ustawianie kUpdate
+				Lista centralek kUpdate (?)
+			Sciaganie i instalacja aktualizacji
+			
+			Katalog
+			Forum
+			Strony WWW
+			
+	Wtyczki
+	=========================================================
+	
+		Jak zainstalowac wtyczke		
+		Wybor wtyczek z listy
+		Gdy wtyczka nie dziala
+		Konfiguracja wtyczek
+		Menu wtyczek
+		
+		Rysowanie - kBoard
+		Gry
+			Kolko i krzyzyk
+		RSS w Konnekcie - kRSS
+		Powiadomienia o urodzinach - kBirth2
+		Sterowanie odtwarzaczem audio - kPilot2
+		Wysylanie wiadomosci SMS - SMS
+		Obs³uga kont pocztowych - mejliK, emNotifier
+		Notatki 
+		Transfer plikow
+			Transfer w sieci Gadu-Gadu - kTransfer
+			Transfer z wykorzystaniem serwera FTP - kFTP
+		
+		Spis wszystkich wtyczek
+			... wszystkie wtyczki ...
+		
+		
+			
+			
+	
