@@ -1,0 +1,376 @@
+﻿p, ul, li, ol, h1, h2, h3, h4, h5, h6, dl, dt, dd, body
+	{
+		padding: 0;
+		margin: 0;
+	}
+
+/* Bloki 
+==================================================== */	
+
+#site
+	{
+		margin: 0 auto;
+		text-align: center;
+		width: 100%;
+	}
+#main, #header { text-align: left; }
+#footer
+	{
+		text-align: left;
+		font-size: 0.65em;
+		clear: both;
+		border-top: 1px solid #000;
+		padding: 0.6em 2em;
+	}
+
+/* Kolumny
+------------------------------------------- */
+
+#content
+	{
+		font-family: "Trebuchet MS", Helvetica, Arial, Tahoma, Verdana, sans-serif;
+		float: left;
+		font-size: 0.9em;
+		width: 79%;
+		border-right: 1px solid #000;
+	}
+#sidebar
+	{
+		float: right;
+		font-size: 0.75em;
+		width: 20%;
+	}
+	
+/* Glowne ustawienia
+==================================================== */	
+
+	body
+		{
+			font-size: 16px;
+			font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+			background: #eee;
+			color: #111111;
+		}
+	a { text-decoration: none; }	
+	h1, h2, h3, h4, h5, h6 { font-family: "Trebuchet MS", "Lucida Sans Unicode", "Helvetica", sans-serif; }	
+	dd, p, td, li { line-height: 175%; }	
+	.news, .art
+		{
+			margin: 0.5em;
+			padding: 1em;
+		}
+	
+	abbr, acronym { cursor: help; }
+	kbd
+		{
+			border-bottom: 2px solid #B2B2B2;
+			border-right: 2px solid #B2B2B2;
+			border-top: 1px solid #E5E5E5;
+			border-left: 1px solid #E5E5E5;
+			background-color: #fff;
+			color: #000;
+			padding: 0 2px;
+		}
+	span[title] { border-bottom: 1px dotted; }
+	
+	a.ex { background: url(gfx/ex.gif) right no-repeat; padding-right: 16px }
+	
+	
+/* Naglowek strony
+==================================================== */	
+	
+#header
+	{
+		border-bottom: 1px solid #000;
+		background: #aaa;
+		height: 6.5em;
+		vertical-align: middle;
+	}		
+h1 a
+	{
+		background: url(gfx/logo_light.gif) left top no-repeat;
+		margin: 0.3em 0 0 0;
+		padding:  0 0 0 170px;
+		display: block;
+		height: 100%;
+		float: left;
+		font-size: 1.8em;
+		color: #444;
+	}	
+h1 acronym { border: 0; }	
+h1 a:hover
+	{
+		color: #FEF8F2;
+	}	
+#header ul { float: right; }	
+#header li
+	{
+		list-style-type: none;
+		margin: 0.5em 0.5em 0 0;
+		padding: 0;
+	}	
+#header ul li a
+	{
+		text-align: center;
+		display: block;
+		width: 11.2em;
+		line-height: 2em;
+		border: 3px solid #777;
+		color: #FFF;		
+		border-radius: 13px;
+		-moz-border-radius: 13px;
+		-ope-border-radius: 13px;
+		-op-border-radius: 13px;
+	}
+#header ul li a:hover
+	{
+		border: 3px solid #777;
+		background: #fff;
+                color:black;
+	}
+	
+/* Menu
+==================================================== */	
+
+	#sidebar h3
+		{
+			padding: 0.5em;
+			border-bottom: 1px dotted #313131;
+background:white;
+			cursor: pointer;
+                        font-weight:bold;
+		}	
+	#sidebar ul	{  }
+	#sidebar li { list-style-type: none; font-size: 0.8em; padding: 0 0.8em;}		
+	#sidebar li a
+		{
+			padding: 0.2em 0 0.2em 0;
+			display: block;
+			color: #000;
+			width: 90%;
+			font-size: 1.2em;
+                        font-weight:bold;
+		}		
+	#sidebar li a:hover
+		{
+			color: #660000;
+			background: #fff;
+		}
+		
+	#sidebar .submenu { display: none; }
+				
+/* Artykul
+==================================================== */
+
+	/* ==== Naglowki ===== */	
+
+	.art h2
+		{
+			font-size: 2.1em;
+			color: #000;
+		}
+		
+	.art h3
+		{
+			clear: both;
+			margin: 0 0 0.5em 0;
+			padding-top: 2em;
+			border-bottom: 1px dotted #444;
+		}
+		
+	.art h4 { clear: both; padding: 1em 0 0 0; font-weight: normal; color: #111; text-decoration: underline; }
+	.art h3[id]:after
+		{
+			content: " #" attr(id);
+			color: #555;
+			font-size: 0.6em;
+			padding-left: 1em;
+			cursor: default;
+		}
+		
+		
+	.art ul, .art ol { clear: left; margin: 0 2em; padding: 0.5em 0 1em 0; }
+	.art ul li { list-style-type: square; list-style-image: url(gfx/bullet.png); }
+		
+	/* ==== Spis tresci ===== */
+	
+	.art .index
+		{
+			float: right;
+			border: 1px solid #000;
+			background: #fff;
+			padding: 1.5em;
+			margin: 0 0 0 1em;
+                        color:navy;
+		}
+		
+	.art .index li
+		{  list-style-type: none; list-style-image: url(gfx/indexarrow.png); }
+	.art .index li ul { margin: 0; padding: 0; }
+	.art .index li ul li { list-style-image: none; padding-left: 0.5em; }
+	.art .index li ul li a { font-weight: normal; font-size: 0.8em; line-height: 0.8em; }
+		
+	.art .index a
+		{
+			text-decoration: none;
+		}
+	
+	/* ==== Reszta ===== */	
+		
+	.art h6
+		{
+			margin: 2em 0;
+			border-bottom: 1px solid #313131;
+			width: auto;
+		}		
+		
+	.art p { margin-bottom: 1.3em; }
+	.art p.log
+		{ 
+			background-color: #fff;
+			color: #000;
+			border-left: 1em solid #666;
+			padding: 0 1em;
+		}
+	.art img
+		{
+			padding: 0.6em;
+			margin: 0.5em;
+			border: 1px dotted #C8C8C8;
+		}	
+	.art img:hover { border: 1px solid #c8c8c8; }
+	.art img.left { float: left; margin-right: 0.7em;  }		
+	.art img.right { float: right; margin-left: 0.7em; }	
+	
+	.art a:link { color: navy; font-weight: bold; }
+	.art a:visited { color: navy; font-weight: bold; }
+	.art a:hover, .art a:focus { border-bottom: 1px solid #D2D2D2; }
+	.art a:active { color: blue; }
+	.art strong { text-decoration: underline; font-weight: normal; }
+	
+	code { color: darkgreen; }
+	
+	/* ==== Tabelki ===== */	
+	
+	.art table { margin: 0 1em; }
+	.art caption { text-align: left; }
+	.art th { background: #222; color: #DDD; font-weight: normal; }
+	.art td { border-bottom: 1px dotted #222; }
+
+		
+/* Elementy interfejsu - przyciski, checkboxy
+==================================================== */	
+	
+	.tool, .menu, .list, .on, .off, .radon, .radoff, .input, .ui, .file, .folder, .but, .tab, .tip
+		{
+			color: #000;
+			padding: 0 5px;
+			white-space: nowrap;
+			font-size: 0.8em 
+		}
+		
+	/* przycisk toolbara */
+	.tool
+		{
+			background: #F8F7FB;
+			border: 1px solid #CDCCD0;
+		}	
+		
+	/* zaokraglenia dla elementow UI */
+	.tool
+		{	
+			border-radius: 4px;
+			-moz-border-radius: 4px;
+			-ope-border-radius: 4px;
+			-op-border-radius: 4px;
+		}
+	.tool a:link, .tool a:visited, .tool a:hover { color: #000; } 
+		
+	/* pozycja menu */
+	.menu { border: 1px solid #D6D5D9; background-color: #F6F6F8; }		
+	/* pozycja menu z 'ptaszkiem' - do zaznaczenia */
+	.opt { background: #F6F6F8 url(gfx/menuopt.gif) left no-repeat; padding-left: 15px; }
+	/* panel, grupa zbiorcza dla elementow UI jak checkbox, button, listbox */
+	.ui { background: #EBE9ED; border: 2px groove #D6D5D9 }
+	/* zakladka */
+	.tab
+		{
+			background: #EBE9ED;
+			border-top: 1px solid #000;
+			border-left: 1px solid #000;
+			border-right: 1px solid #000;
+			border-radius-topleft: 9px;
+			-moz-border-radius-topleft: 9px;
+			-ope-border-radius-topleft: 9px;
+			-op-border-radius-topleft: 9px;
+			border-radius-topright: 9px;
+			-moz-border-radius-topright: 9px;
+			-ope-border-radius-topright: 9px;
+			-op-border-radius-topright: 9px;
+		}
+	/* button */
+	.but { background: #E6EBF0 url(gfx/button.gif) repeat-x; border: 1px outset #405990; }
+	/* lista w ustawieniach po lewej */
+	.list {	background: #FFF url(gfx/litem.gif) left no-repeat; padding-left: 15px;}		
+	.on, .off, .radon, .radoff { padding-left: 20px; }
+	
+	/* pola checkbox / checklistbox - stan zaznaczenia */
+	.on
+		{
+			background-image: url(gfx/chxon.gif);
+			background-position: left;
+			background-repeat: no-repeat;
+		}		
+	.off 
+		{
+			background-image: url(gfx/chxoff.gif);
+			background-position: left;
+			background-repeat: no-repeat;
+		}
+		
+	/* pole checkbox */
+	.chx	{ background-color: #EBE9ED;}		
+	/* pole radiobutton wybrane */
+	.radon { background: #EBE9ED url(gfx/radon.gif) left no-repeat; }
+	/* pole radiobutton niewybrane */
+	.radoff { background: #EBE9ED url(gfx/radoff.gif) left no-repeat; }
+	/* pole edit (input) badz zwykle listbox albo memo (textarea) */
+	.input { background-color: #FFF; border: 1px solid #A7A6AA; }
+	/* plik */
+	.file, .tip { border: 1px dotted #666; color: #000; background:#fff }
+	/* folder */
+	.folder { background: #fff url(gfx/folder.gif) left no-repeat; padding-left: 25px; color: #000; }
+	.folder, .file, .input, .art p.log, .tip { font-family: "Andale Mono", "Courier New", Courier, monospace; } 
+	.folder a:link { color: #000; font-weight: bold; }
+	.folder a:visited { color: #000; }
+	.folder a:hover { border: none; color: #FFFF87; }
+		
+	/* element UI nieaktywny */
+	.inactive {	color: #A7A6AA; }
+	/* element UI domyslny */
+	.def { font-weight: bold; }
+	
+	/* nieistniejacy art */
+	a.todo:link { color: #F30053; font-weight: normal; }
+	a.todo:hover { border-bottom: none; }
+	a.todo:hover:after { content: " (ten artykuł jeszcze nie istnieje)"; color: #666; }
+		
+/* Footer
+==================================================== */	
+
+	#footer { position: relative; }
+	#footer a:link, #footer a:visited { color: #000; }
+	#footer a:hover { color: darkgreen; } 
+	.w3cbutton
+		{
+			font-weight: bold;
+			position: absolute;
+			right: 0;
+			bottom: 0; 
+			border-top: 1px solid #CECECE;
+			border-left: 1px solid #CECECE;
+			border-right: 1px solid #5A5A5A;
+			border-bottom: 1px solid #5A5A5A;
+		}
+	.spec { background: #FFCE63; color: #000; padding: 0.1em 0.3em; }
+	.w3c { background: #FFF; color: #00317B; padding: 0.1em 0.3em; }

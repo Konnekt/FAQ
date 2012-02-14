@@ -1,0 +1,19 @@
+	/* numerki */
+	.no1, .no2, .no3, .no4, .no5, .no6, .no7, .no8, .no9, .no10 
+		{
+			white-space: nowrap;
+			background-position: left center;
+			background-repeat: no-repeat;
+			padding-left: 17px;
+		}
+	
+	.no1  { background-image: url(gfx/no1.png);  }
+	.no2  { background-image: url(gfx/no2.png);  }
+	.no3  { background-image: url(gfx/no3.png);  }
+	.no4  { background-image: url(gfx/no4.png);  }
+	.no5  { background-image: url(gfx/no5.png);  }
+	.no6  { background-image: url(gfx/no6.png);  }
+	.no7  { background-image: url(gfx/no7.png);  }
+	.no8  { background-image: url(gfx/no8.png);  }
+	.no9  { background-image: url(gfx/no9.png);  }
+	.no10 { background-image: url(gfx/no10.png); }

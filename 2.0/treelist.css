@@ -1,0 +1,59 @@
+ul.treelist
+	{ 
+		padding: 5px 15px;
+		margin: 10px;
+		background-color: #FFF;
+		margin: 0;
+		color: #000;
+		font-family: Arial, Verdana, Helvetica, Tahoma, sans-serif;
+		font-size: 10px;
+	}
+
+ul.treelist ul
+	{ 
+		padding: 0;
+		margin: 0 0 0 10px; 
+	} 
+ 
+ul.treelist li
+	{
+		list-style: none;
+		background-image: url(gfx/dotted.gif);
+		background-repeat: repeat-y;
+		padding: 0 0 2px 5px;
+		margin: 0;
+		text-indent: -11px;
+		background-position: 2px 0;
+		line-height: 115%;
+	} 
+	
+ul.treelist li:last-child
+	{
+		background-repeat: no-repeat;
+	}
+	
+ul.treelist li::before
+	{
+		content: url(gfx/litem.gif) " ";
+	}
+	
+ul.treelist li.exp::before
+	{
+	 content: url(gfx/cross.gif) " ";
+	}
+ 
+/* 
+ul.treelist li::before
+	{ 
+		content: url(gfx/cross.gif) " ";
+	} 
+
+ul.treelist li:last-child::before
+	{ 
+		content: url(gfx/litem.gif) " "; 
+	}
+	
+ul.treelist li.last:before
+ { 
+		content: url(gfx/cross.gif) " ";
+ } */

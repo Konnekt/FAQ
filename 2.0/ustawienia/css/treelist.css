@@ -1,0 +1,43 @@
+ul.tabset_tabs
+	{ 
+		padding: 2px 4px;
+		margin: 10px;
+		background-color: #FFF;
+		border: 1px solid #A7A6AA;
+		margin: 0;
+		color: #000;
+		font-family: Tahoma, Verdana, Helvetica, sans-serif;
+		font-size: 11px;
+	}
+	
+ul.tabset_tabs li a { text-decoration: none; color: #000; }
+ul.tabset_tabs li a:hover { text-decoration: underline; color: #000080; }
+
+ul.tabset_tabs ul
+	{ 
+		padding: 0;
+		margin: 0 0 0 10px; 
+	} 
+ 
+ul.tabset_tabs li
+	{
+		list-style: none;
+		padding: 3px 0 2px 8px;
+		margin: 0;
+		text-indent: -11px;
+		line-height: 115%;
+	} 
+	
+ul.tabset_tabs li a { padding: 1px 5px;}
+ul.tabset_tabs li a.active { background: #000; color: #FFF; }
+	
+ul.tabset_tabs li::before
+	{
+		content: url(../gfx/litem.gif);
+		padding-right: 6px;
+	}
+	
+ul.tabset_tabs li.exp::before
+	{
+	 content: url(../gfx/cross.gif) " ";
+	}

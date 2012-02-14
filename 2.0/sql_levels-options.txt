@@ -1,0 +1,985 @@
+﻿
+		
+<h3>Połączenie - Proxy</h3>
+
+<h4>Początkujący</h4>
+
+<ul>
+<li><span class="chx off">Używaj proxy</span></li>
+<li><span class="chx off">Używaj proxy tylko do połączeń przez http</span></li>
+<li><span class="ui">Adres</span>: <span class="input">(puste)</span></li>
+<li><span class="ui">/port</span>: <span class="input">80</span></li>
+<li>
+	<p><span class="ui">Logowanie</span></p>
+	<p><span class="chx off">Używaj logowania</span></p>
+		Login / hasło do serwera proxy
+		__________________ _____________
+		
+		Button Pomoc - Uwaga! Niektóre wtyczki mogą nie obsługować proxy!
+			
+	+-------------
+	| Prosty
+	+-------------
+	
+		Bez zmian
+			
+	+-------------
+	| Normalny
+	+-------------
+	
+		Bez zmian
+			
+	+-------------
+	| Zaawansowany
+	+-------------
+	
+		Bez opisu na górze
+			
+	+-------------
+	| Pro
+	+-------------
+	
+		Bez przycisku Pomoc.
+		
+Aktualizacje
+---------------------------------------------
+	+-------------
+	| Początkujący
+	+-------------
+			
+			Guzik z obrazkiem.
+			
+			Konnekt co jakiś czas sprawdza, czy są dostępne dodatki lub uaktualnienia. Gdy ukaże się coś nowego, w zasobniku systemowym pojawi się zielona strzałka, którą należy kliknąć, aby otworzyć okno aktualizacji [?].
+			
+			<span class="but">Sprawdź teraz</span>
+			<span class="but">Przejrzyj aktualizacje</span>
+			
+			<span class="ui">Wybierz centralki z których chcesz pobierać aktualizacje</span>
+			
+			<span class="chx on dis">www.konnekt.info</span>
+				<span class="chx on def">Podstawowe aktualizacje</span>
+				<span class="chx off">Pliki dla autorów wtyczek</span>
+			<span class="chx off">Centralka K.Plugins</span>
+			<span class="chx off">Centralka www.wiadomosc.info</span>
+			
+	+-------------
+	| Prosty
+	+-------------
+	
+		Bez zmian
+			
+	+-------------
+	| Normalny
+	+-------------
+	
+			<span class="ui">Częstotliwość sprawdzania</span>
+			
+			Nigdy
+			Co 12 godzin
+			Raz dziennie
+			X Raz na dwa dni
+			Raz na tydzień
+			
+	+-------------
+	| Zaawansowany
+	+-------------
+	
+			<span class="chx off dis">www.konnekt.info</span>
+				<span class="chx off dis">Uaktualnienia Beta (testowe)</span>
+				
+			<span class="ui">Częstotliwość sprawdzania</span>
+				<span class="chx on dis">Sprawdzaj tylko po uruchomieniu</span>
+				
+			Brak podpowiedzi i obrazka
+			
+	+-------------
+	| Pro
+	+-------------
+	
+			Bez zmian
+		
+Aktualizacje - Dodatkowe centralki
+---------------------------------------------
+	+-------------
+	| Zaawansowany
+	+-------------
+	
+		<span class="ui">Dodatkowe adresy centralek</span>
+		
+		Poniżej możesz podać dodatkowe adresy centralek, które będą każdorazowo sprawdzane.
+		
+		Uwaga! Niewłaściwie edytując to pole możesz pozbawić się aktualizacji programu!
+		
+		Każdy adres w osobnej linijce, adresy można tymczasowo wyłączać umieszczając na początku znaki '#' lub '!'.
+			
+	+-------------
+	| Pro
+	+-------------
+	
+		Bez zmian
+		
+Użytkownik
+---------------------------------------------
+	+-------------
+	| Początkujący
+	+-------------
+			
+			<span class="but def">Ustaw swoje dane personalne</span>
+			
+			<span class="ui">Tryb Auto-away</span> *suwak* - 300
+			
+	+-------------
+	| Prosty
+	+-------------
+	
+		Bez zmian
+			
+	+-------------
+	| Normalny
+	+-------------
+	
+		Bez zmian
+			
+	+-------------
+	| Zaawansowany
+	+-------------
+	
+		Bez zmian
+			
+	+-------------
+	| Pro
+	+-------------
+	
+		Bez zmian
+		
+Użytkownik - Tlen
+---------------------------------------------
+	+-------------
+	| Początkujący
+	+-------------
+			
+			DwuTlenek pozwala rozmawiać z użytkownikami sieci Tlen.pl
+			
+			Obsługa protokołu ogranicza się do przesyłania wiadomości, statusów i autoryzacji. Do zakładania konta, zmiany hasła, przesyłania plików, czy łączenia się przez proxy będziesz musiał użyć innego klienta.
+			
+			<span class="ui">Konto</span>
+			
+			Login ____________ @ tlen.pl	
+			Hasło ____________
+			
+			
+	+-------------
+	| Prosty
+	+-------------
+	
+		<span class="ui">Autoryzacja</span>
+		przycisk z obrazkiem
+		
+		Bez autoryzacji nie będziesz widział czyjegoś statusu. Jej stan możesz podejrzeć/zmienić bezpośrednio na liście kontaktów.
+		
+		<span class="chx on">Automatycznie pytaj o autoryzację nowe kontakty</span>
+		<span class="chx on">Automatycznie potwierdzaj autoryzację</span>
+		
+		<span class="ui">Katalog użytkowników</span>
+		
+		<span class="chx off">Pokazuj mój status w katalogu użytkowników</span>
+			
+	+-------------
+	| Normalny
+	+-------------
+	
+		Brak opisu autoryzacji
+			
+	+-------------
+	| Zaawansowany
+	+-------------
+	
+		
+		Brak opisu protokołu
+	
+		<span class="ui">Synchronizacja listy kontaktów</span>
+		Nie synchronizuj
+		X Synchronizuj do serwera
+		Synchronizuj do Konnekta
+		
+		<span class="chx on">Dodawaj kontakty na synchronizowanej liście</span>
+		<span class="chx on">Usuwaj kontakty z synchronizowanej listy</span>
+		
+			
+	+-------------
+	| Pro
+	+-------------
+	
+		Bez zmian
+		
+Użytkownik - GG
+---------------------------------------------
+	+-------------
+	| Początkujący
+	+-------------
+			
+		<span class="ui">Konto na serwerze GG</span>
+		
+		Numerek GG _0________ _________ Hasło
+		
+		<span class="but def">Załóż konto</span>
+		<span class="but def">Importuj listę kontaktów</span>
+		
+		<span class="but">Zmień hasło</span>
+		<span class="but">Przypomnij hasło hasło</span>
+		
+		<span class="ui">Ustawienia</span>
+		
+		<span class="chx off">Mój status widoczny tylko u znajomych z mojej listy</span>
+		
+		<span class="ui">Wiadomości graficzne</span>
+		
+		<span class="chx on">Maksymalny rozmiar</span> 255 KiB (max. 255)
+			
+	+-------------
+	| Prosty
+	+-------------
+	
+		Przeniesiono 
+		
+		<span class="ui">Wiadomości graficzne</span>
+		
+		<span class="chx on">Maksymalny rozmiar</span> 255 KiB (max. 255)
+		
+		do GG - Obrazki
+			
+	+-------------
+	| Normalny
+	+-------------
+	
+			<span class="ui">Ustawienia</span>
+			
+			Status startowy 
+				X Ostatni
+				Niedostępny
+				Dostępny
+				Zajęty ------------ WHAT THE FUCK??
+				Ukryty
+		
+			<span class="chx off">Używaj bezpiecznego połączenia, jeśli to możliwe</span>
+			<span class="Mój status widoczny tylko u znajomych z mojej listy</span>
+			
+			<span class="but">Usuń konto z serwera</span>
+			
+			Przycisk "UWAGA! Konto zostanie bezpowrotnie usunięte z serwera GG! Nie będziesz mógł więcej korzystać z tego numeru!"
+			
+	+-------------
+	| Zaawansowany
+	+-------------
+	
+		<span class="ui">Ustawienia</span>
+		
+		<span class="chx off">Pełne meny w zasobniku systemowym</span>
+		<span class="chx off">Nie łącz ponownie jeżeli serwer zakończy połączenie.</span<
+		
+		<span class="ui">Serwery</span>
+		
+		SSL
+
+		217.17.41.83
+		217.17.41.84
+		217.17.41.85
+		217.17.41.86
+		217.17.41.87
+		217.17.41.88
+		217.17.41.92
+		
+		Przycisk Pomoc - "W każdej linijce jeden serwer. Pusta linijka oznacza HUB (system zwracający najmniej obciążony serwer).
+Format (zawartość [...] jest opcjonalna):
+Adres[:port]
+SSL[ Adres[:port]] (połączenie szyfrowane)
+
+Aby wyłączyć serwer dodaj ! na początku."
+
+	<span class="but">Domyślne</span>
+	<span class="but">Tylko SSL</span>
+			
+	+-------------
+	| Pro
+	+-------------
+	
+		Bez zmian
+		
+GG -> Obrazki
+---------------------------------------------
+	+-------------
+	| Prosty
+	+-------------
+	
+		<span class="ui">Ustawienia</span>
+	
+			<span class="chx on">Maksymalny rozmiar</span> 255 KiB (max. 255)
+			
+			<span class="chx on">Pokazuj informacje o dostarczeniu obrazka</span>
+			<span class="chx on">Sprawdzaj maksymalny rozmiar obrazka jaki można wysłać</span>
+			
+		<span class="ui">Przesyłanie plików</span>
+		
+		Katalog składowania plików (pełna ścieżka)
+		___Download\%KonnektUser%___ 
+		
+			<span class="chx on">Zezwalaj na odbiór plików</span>
+		
+		<span class="ui">Zrzuty ekranu (screenshot)</span>
+		
+		Stopień kompresji obrazu *suwak* - 60
+			
+	+-------------
+	| Normalny
+	+-------------
+	
+		<span class="ui">Przesyłanie plików</span>
+		
+			<span class="chx off">Informacje o odebraniu pliku pokazuj jako wiadomość</span>
+			
+			Akcja po kliknięciu w KNotify
+			X Nic nie rób
+			Otwórz okno rozmowy
+			Otwórz katalog z plikiem
+			
+			Przycisk Pomoc - Informacja o odebranym pliku będzie pokazywana jako wiadomość od rozmówcy. W przeciwnym razie zostanie  użyte powiadomienie KNotify w przypadku zamkniętego okna rozmowy od osoby od której dostaliśmy plik
+			
+	+-------------
+	| Zaawansowany
+	+-------------
+	
+		<span class="ui">Dodatkowe opcje</span>
+		
+		chx on Włącz Drag&Drop w okienku rozmowy
+		chx on Odgrywaj dźwięk wysłanej wiadomości
+		chx on Nie nadpisuj istniejących plików (nie dotyczy obrazków)
+		
+		<span class="ui">Obrazki</span>
+		
+		chx off Okno wyboru fragmentu na pełnym ekranie
+		chx off Potwierdzaj prawidłwość zaznaczonego fragmentu
+		
+		Grubość linii zaznaczanego fragmentu *suwak* - 3		
+			
+	+-------------
+	| Pro
+	+-------------
+	
+		Bez zmian
+	
+		
+		
+Jabber
+---------------------------------------------
+	+-------------
+	| Początkujący
+	+-------------
+			
+		ui Serwer
+		
+		Serwer _________ 
+			
+			but Help 
+			
+			"Nazwę serwera znajdziesz w swoim identyfikatorze (JID) - konto@serwer.
+			
+Jeżeli jeszcze nie masz konta w sieci Jabber, wpisz adres serwera lub wybierz któryś z listy. Pamiętaj, że będziesz mógł rozmawiać z użytkownikami i korzystać z usług innych serwerów."
+
+	but Zobacz listę serwerów
+	
+	ui Konto
+	
+	Użytkownik ______________ _______________ Hasło 
+	
+	but def Załóż konto but Usługi but Zmień hasło / usuń
+			
+	+-------------
+	| Prosty
+	+-------------
+	
+		but Pomoc - obrazek ilustrujący autoryzację
+		Text: "Bez autoryzacji nie będziesz widział czyjegoś statusu. Jej stan możesz podejrzeć/zmienić bezpośrednio na liście kontaktów."
+		
+		chx on Automatycznie pytaj o autoryzację nowe kontakty
+		chx on Automatycznie potwierdzaj autoryzację
+		
+	+-------------
+	| Normalny
+	+-------------
+	
+			ui Serwer
+			
+				Port _5222_ 	chx off Łącz bezpiecznie
+				
+			ui Ustawienia
+			
+			Serwer JUD users.jabber.org
+			
+			ui Synchronizacja
+						
+			Nie synchronizuj
+			X Synchronizuj do serwera
+			Synchronizuj do Konnekta
+			
+	+-------------
+	| Zaawansowany
+	+-------------
+	
+			ui Ustawienia
+			
+				Zasób _Konnekt_ 	_10_ Priorytet
+			
+			ui Synchronizacja
+			
+				chx on Dodawaj kontakty na synchronizowanej liście
+				chx on Usuwaj kontakty z synchronizowanej listy
+			
+	+-------------
+	| Pro
+	+-------------
+	
+			bez zmian
+		
+kLAN
+---------------------------------------------
+	+-------------
+	| Początkujący
+	+-------------
+		but def POMOC
+	+-------------
+	| Prosty
+	+-------------
+		ui Ustawienia
+			chx off Komunikuj się TYLKO z komputerami na liście
+			chx on Obsługuj WinPopup
+			
+			X kLAN Nazwa kanału
+	+-------------
+	| Normalny
+	+-------------
+		bez zmian
+	+-------------
+	| Zaawansowany
+	+-------------
+		bez zmian
+	+-------------
+	| Pro
+	+-------------
+		bez zmian
+		
+Interfejs
+---------------------------------------------
+	+-------------
+	| Początkujący
+	+-------------
+		ui Główne okno
+			but Pomoc z obrazkiem glownego okna
+			label "Okno główne jest sercem programu - możesz w nim zarządzać swoimi kontaktami, nawiązywać z nimi rozmowy, dostać się do ustawień, czy historii."
+			
+			chx off Zawsze na wierzchu
+			
+		ui Automatyczne ukrywanie głównego okna
+			*suwak* - Wyłączone
+	+-------------
+	| Prosty
+	+-------------
+		bez zmian
+	+-------------
+	| Normalny
+	+-------------
+		ui Główne okno
+			chx off Nie pokazuj okna po zwykłym uruchomieniu
+			chx off Wyświetl na pasku zadań i w oknie przełączania programów
+	+-------------
+	| Zaawansowany
+	+-------------
+		brak but Help / label
+		
+		ui Widoczność głównego okna (przezroczystość)
+		
+			chx off Włącz przezroczystość
+				*suwak* - 75%
+	+-------------
+	| Pro
+	+-------------
+		bez zmian
+
+Lista kontaktów
+---------------------------------------------
+	+-------------
+	| Początkujący
+	+-------------
+	
+	ui Kontakty na liście
+	
+		but Help - obrazek ikonek w Tipie, przy ikonach sieci i menu Kontaktów
+		label - "Na liście kontaktów można odczytać podstawowe informacje o naszych kontaktach, takie jak jego nazwa, aktualny status czy ewentualnie opis."
+		
+		ui Opis kontaktu na liście
+		
+			radoff Wyłączone
+			radon Obok nazwy (1 linijka)
+			radoff Pod nazwą
+			wyłączone [radoff dis + zawijanie wierszy]
+		
+	+-------------
+	| Prosty
+	+-------------
+		ui Filtrowanie listy
+			radon Ukryte
+			radoff Jako menu
+			radoff Jako toolbar
+			
+		but Help - obrazek + label "Filtrowanie służy do wyświetlania tylko tych kontaktów, które spełniają wybrane przez nas kryteria, jak sieć czy dostępność. Po ustaleniu kryteriów włączamy/wyłączamy filtrowanie jednym przyciskiem - "Filtruj".
+
+Możemy odznaczyć wszystkie kryteria i zaznaczyć tylko jedno trzymając wciśnięty klawisz [Ctrl].
+Możemy również zaznaczyć wszystkie kryteria oprócz wybranego, trzymając podczas zaznaczania klawisz [Shift]."
+	+-------------
+	| Normalny
+	+-------------
+		ui Kontakty na liście
+			chx off Ikony statusu niezależne od sieci kontaktu
+			chx on Kontakty dostępne - grubą czcionką
+			chx on Animowane ikony powiadomień
+		ui Oznaczanie aktywności kontaktów	
+			chx on Uwzględnij przy sortowanie i pokaż ikonę aktywności
+			chx on Animuj kontakty, które zmieniły status
+			
+			but Help - wytłumaczenie jak działa oznaczanie aktywności + obrazek
+	+-------------
+	| Zaawansowany
+	+-------------
+		ui Kontakty na liście
+			chx off Buforowane wyświetlanie
+		ui Opis kontaktu na liście
+			włączone - radoff + zawijanie wierszy
+			but Help - Zawartość opisu możesz zmienić w zakładce "Formatowanie pól".
+		ui Filtrowanie listy
+			brak but Help
+		ui Oznaczanie aktywności kontaktów	
+			brak but Help
+		
+		chx off Edytuj nazwę kontaktu bezpośrednio na liście
+		
+	+-------------
+	| Pro
+	+-------------
+		ui Opis kontaktu na liście
+			brak but Help
+			
+Grupy
+---------------------------------------------
+	+-------------
+	| Prosty
+	+-------------
+		ui Grupy kontaktów
+			but Help - obrazek
+			label - "Grupy ułatwiają poruszanie się po dużej ilości kontaktów. Listę można podzielić na kilka części, takich jak np: 'Znajomi' czy 'Praca'. Grupy są przedstawione w formie zakładek w głównym oknie programu."
+			
+			but def Edytuj listę grup
+	+-------------
+	| Normalny
+	+-------------
+		ui Grupy kontaktów
+			chx on Zakładki w kilku linijkach
+		ui Zakładka główna
+			chx off Wyświetlaj TYLKO kontakty nie przydzielone do żadnej grupy
+	+-------------
+	| Zaawansowany
+	+-------------
+		ui Grupy kontaktów
+			brak but Help
+			brak label
+		ui Zakładka główna
+			_*____ Opis zakładki
+	+-------------
+	| Pro
+	+-------------
+		bez zmian
+		
+Dokowanie
+---------------------------------------------
+	+-------------
+	| Normalny
+	+-------------
+		but Help - obrazek
+		label - "Dokowanie polega na automatycznym ustawianiu pozycji okna głównego przy brzegach pulpitu tak, aby nie przeszkadzało w trakcie pracy z innymi programami, jednocześnie będąc łatwo i szybko dostępnym."
+		
+		chx on def Dokowanie włączone
+		
+		ui Wybierz rodzaj dokowania
+			radoff Zintegrowane z pulpitem, but Help - obrazek
+			radon "Pływające" nad pulpitem, but Help - obrazek
+			
+		chx on Przyciągaj do brzegów ekranu
+	
+		ui Praca na wielu monitorach
+			label - "Jeżeli pracujesz na kilku monitorach i chcesz przenieść okno główne na inny, musisz wyłączyć dokowanie i przyciąganie do brzegów!"
+	+-------------
+	| Zaawansowany
+	+-------------
+		brak but Help
+		brak label
+		
+		ui Wybierz rodzaj dokowania
+			radoff Zintegrowane z pulpitem, but Help - obrazek
+			radon "Pływające" nad pulpitem, but Help - obrazek
+					Odstęp od brzegu.
+						*suwak* - 20
+					Po jakim czasie ma pojawiać się okno?
+						*suwak* - 251
+					Półprzezroczystość.
+						*suwak* - 70
+					chx on Rozciągaj okno w pionie po zadokowaniu
+		
+	+-------------
+	| Pro
+	+-------------
+			brak ui Praca na wielu monitorach 
+
+Lista kontaktów - ikonki
+---------------------------------------------
+	+-------------
+	| Początkujący
+	+-------------
+		but Help - obrazek z ikonkami
+		label - "Małe ikonki ułatwiają zorientowanie się czy do danego kontaktu mamy wpisany jego adres email, telefon oraz czy kontakt ma ustawiony status opisowy."
+		
+		chx on def Włączone
+	+-------------
+	| Prosty
+	+-------------
+		chx off Wyświetlane po prawej stronie listy
+		
+		ui Rozmieszczenie poszczególnych ikonek
+			Opis statusu			radoff Ukryty				radoff Z lewej				radon Z prawej
+			Email							j/w
+			Telefon						j/w
+	+-------------
+	| Normalny
+	+-------------
+		chx on Odstęp wokól statusu
+	+-------------
+	| Zaawansowany
+	+-------------
+		brak but Help
+		brak label
+	+-------------
+	| Pro
+	+-------------
+		bez zmian
+
+Lista kontaktów - Tip
+---------------------------------------------
+	+-------------
+	| Prosty
+	+-------------
+		but Help - obrazek
+		label - "Tip wyświetla podstawowe informacje o kontakcie w postaci etykiety mogącej zawierać takie dane jak adres email, telefon itp."
+		
+		chx on def Włączony
+		chx off Zadokowany na belce pod listą kontaktów
+	+-------------
+	| Normalny
+	+-------------
+		ui Wyświetlane elementy
+			chx on Używaj ikonek
+			chx on Nazwa kontaktu
+			chx on Czas ostatniej aktywności
+			chx on Numer IP
+	+-------------
+	| Zaawansowany
+	+-------------
+		brak but Help
+		brak label
+		
+		Czas po którym jest wyświetlany
+			slider 251
+	+-------------
+	| Pro
+	+-------------
+		bez zmian
+
+Powiadomienia
+---------------------------------------------
+	+-------------
+	| Początkujący
+	+-------------
+	ui Zasobnik systemowy
+		but Help - obrazek
+		label - "Powiadomienia w zasobniku systemowym (pole obok zegarka) informują o nadchodzących nowych wiadomościach czy o zmianie statusu kontaktów na naszej liście."
+		
+		chx on Powiadamiaj o kontaktach, które stały się dostępne
+	+-------------
+	| Prosty
+	+-------------
+	ui Zasobnik systemowy
+		Status połączenia
+			but Help - "Możesz wybrać sieć, której status będzie wyświetlany w zasobniku systemowym".
+			radoff Pierwsza sieć na belce statusów
+			radoff Sieć, która jako ostatnia zmieniła swój status
+			radoff Tlen
+			radoff Gadu-Gadu
+			radoff Jabber
+			radoff LAN
+			radoff Wszystkie
+			radoff Nie pokazuj
+	+-------------
+	| Normalny
+	+-------------
+	ui Zasobnik systemowy	
+		chx on Otwieraj powiadomienia po jednym kliknięciu
+		chx on Wyświetlaj informację o statusie wszystkich sieci
+	ui Animacja ikon
+		slider 500
+	+-------------
+	| Zaawansowany
+	+-------------
+	ui Zasobnik systemowy	
+		brak but Help
+		brak label
+		chx on Wyświetlaj informację o statusie wszystkich sieci
+	ui Powiadamianie o nowej wiadomości w oknie rozmowy
+		updown __1__ Migaj oknem po nadejściu wiadomości #razy
+	+-------------
+	| Pro
+	+-------------
+		brak zmian
+		
+Wiadomości
+---------------------------------------------
+	+-------------
+	| Początkujący
+	+-------------
+	ui Okno rozmowy
+		but Help - obrazek z oknem rozmowy
+		label - "Jak sama nazwa wskazuje, okno rozmowy służy do rozmawiania :) Dodatkowo możesz bezpośrednio z niego wysłać np. obrazek, lub dostać się do historii rozmów."
+		
+	ui Pisanie i czytanie
+		chx on Wysyłaj wiadomości po naciśnięciu [Enter]
+	+-------------
+	| Prosty
+	+-------------
+	ui Okno rozmowy
+		chx on Zapamiętuj zawartość okna rozmowy po jego zamknięciu
+		chx on Informuj w oknie rozmowy gdy kontakt zmieni status
+	ui Automatyczne otwieranie okien po nadejściu wiadomości	
+		radon Wyłączone
+		radoff Zminimalizowane
+		radoff W tle
+		radoff Na wierzchu
+	ui Potwierdzanie niedostarczenia
+		chx on Informuj o niedostarczeniu
+	+-------------
+	| Normalny
+	+-------------
+	ui Historia ostatnio wpisanych wiadomości
+		radoff Wyłączona
+		radon Z [Ctrl]
+		radoff Włączona
+		but Help - "Naciskając w oknie wpisywania wiadomości strzałki [góra]/[dół] możesz przywoływać poprzednio wpisane wiadomości"
+	+-------------
+	| Zaawansowany
+	+-------------
+	ui Okno rozmowy
+		brak btn Help
+		brak label
+	ui Potwierdzanie niedostarczenia
+		chx on Informuj o niedostarczeniu
+		chx off Informuj o zapisaniu w kolejce na serwerze
+	+-------------
+	| Pro
+	+-------------
+		brak zmian
+
+Wiadomość - Historia
+---------------------------------------------
+	+-------------
+	| Początkujący
+	+-------------
+		but Help - obrazek
+		label - "Wszystkie wiadomości które są odbierane bądź wysyłane zostają zapisane w historii. Dzięki temu można póżniej przeczytać starsze rozmowy, czy wyszukać konkretne informacje w nich zawarte, takie jak np. adresy stron czy emaile."
+		
+		chx on Zapisuj wiadomości w historii
+	+-------------
+	| Prosty
+	+-------------
+		bez zmian
+	+-------------
+	| Normalny
+	+-------------
+		chx on Podkreślaj znaleziony tekst
+	+-------------
+	| Zaawansowany
+	+-------------
+		brak but Help
+		brak label
+		
+		ui Export do XMLa:
+			Nagłówek wstawiany do XMLa:
+				_<?xml-stylesheet type="text/xsl" href="%HistoryXSL%"?>_
+			Plik XSL do formatowania exportu _%KonnektData%\history\exported renderer.xsl_
+			Plik XSL do formatowania wydruku _%KonnektData%\history\print.xsl_
+			
+			chx on Zapisuj pełne informacje o wiadomościach		
+	+-------------
+	| Pro
+	+-------------
+		bez zmian
+		
+Wiadomości - spoza listy
+---------------------------------------------
+	+-------------
+	| Normalny
+	+-------------
+		label "Tutaj można zmienić zachowanie programu w przypadku otrzymania wiadomości od osoby nie znajdującej się na naszej liście kontaktów.
+Jeżeli odznaczymy pole 'Przyjmuj wiadomości od osób spoza listy', można wprowadzić tekst wiadomości która zostanie wysłana automatycznie do kontaktu spoza listy. W tej wiadomości można zawrzeć 'hasło', którym osoba musi odpowiedzieć żeby się z nami skontaktować. 'Hasło' należy wpisać w polu 'Dodaj kontakt do listy jeżeli przyśle hasło'. Jeżeli w naszej automatycznie wysyłanej wiadomości nie będzie zawarta informacja o haśle, osoby spoza listy nie będa mogły się z nami skontaktować!"
+		chx on def 	Przyjmuj wiadomości od osób spoza listy
+		
+		ui Na nieprzyjęte wiadomości odpowiedz:
+			__
+		ui Dodaj kontakt do listy, jeśli przyśle 'hasło':
+			__
+			but Help - "Rozmówca musi wpisać hasło jako jedyną treść w wiadomości! W przeciwnym razie hasło nie zostanie rozpoznane!"
+	+-------------
+	| Zaawansowany
+	+-------------
+		brak label
+	+-------------
+	| Pro
+	+-------------
+		bez zmian
+		
+Wygląd
+---------------------------------------------
+	+-------------
+	| Początkujący
+	+-------------
+		ui Okno wiadomości
+			Okno [Tahoma, Regularne, 7, #000000, #EEEEEE]
+			Kontakt [Tahoma, Regularne, 7, #004080]
+			Wysyłane [Tahoma, Regularne, 9, #002953, #EEEEEE]
+			Odbierane [Tahoma, Pogrubienie, 9, #002953, #EEEEEE]
+			Info [Tahoma, Pogrubienie, 8, #FF0000, #EEEEEE]
+			Podkreślone [Tahoma, Pogrubienie, 11, #800000, #EEEEEE]
+		ui Lista kontaktów
+			Kontakt [Tahoma, Regularne, 8, #002346, #EEEEEE]
+			Zaznaczony [Jak wyżej, Pogrubienie, Jak wyżej, #FFFFFF, #7D87A2]
+			Opis [Tahoma, Regularne, 7, #006AAA, #EEEEEE]
+			TIP [Tahoma, Regularne, 7, #FFFFFF, #004080]
+	+-------------
+	| Prosty
+	+-------------
+		bez zmian
+	+-------------
+	| Normalny
+	+-------------
+		bez zmian
+	+-------------
+	| Zaawansowany
+	+-------------
+		bez zmian
+	+-------------
+	| Pro
+	+-------------
+		bez zmian
+		
+		
+Aktualizacje -> Dodatkowe centralki
+---------------------------------------------
+	+-------------
+	| Zaawansowany
+	+-------------
+		ui Dodatkowe adresy centralek
+			label	Poniżej możesz podać dodatkowe adresy centralek, które będą każdorazowo sprawdzane.
+Uwaga! Niewłaściwie edytując to pole możesz pozbawić się aktualizacji programu! 
+Każdy adres w osobnej linijce, adresy można tymczasowo wyłączać umieszczając na początku znaki '#' lub '!'.
+			__
+	+-------------
+	| Pro
+	+-------------
+		bez zmian
+		
+Formatowanie pól
+---------------------------------------------
+	+-------------
+	| Zaawansowany
+	+-------------
+		label "Zawartość składa się z tekstu i zmiennych. Zmienne podajemy w postaci - {dodateknazwa_zmiennejdodatek} - dodatek to dowolne znaki nie alfanumeryczne, które pojawią się tylko wtedy, gdy wartość zmiennej nie będzie pusta."
+		
+		Jako nazwę możesz podać:
+			but Help Identyfikator "Jeden z identyfikatorów pól w tablicy kontaktów: UID"
+			but Help Nazwę specjalną "version (wersja programu), profile (aktywny profil), status (nazwa statusu kontaktu), info (status opisowy)"
+			but Help Przykład "Ustawiamy zawartość:
+  {Name }{"Nick" }{Surname }{[status]}
+dla kontaktu:
+  imię=Jan, nazwisko=Kowalski, status=Dostępny, bez ksywki,
+sformatowana nazwa będzie miała postać:
+  Jan Kowalski [Dostępny] (ponieważ kontakt nie ma "ksywki" (pole Nick) dodatki '"' i '" ' nie są wyświetlane...)"
+		
+		
+		ui Tytuł okna głównego
+			_KONNEKT {version}{ [profile]}_
+		ui Tytuł okna wiadomości
+			_{display }{[status] }{"info"}_
+		ui Podpowiedź w zasobniku systemowym (tray)
+			Zwykła
+				______ 
+				but Help "Możesz użyć prostego formatowania HTML."
+			Z oczekującą odpowiedzią
+				_<b>{eventTitle}</b>{ "eventMsg"}{ [eventDisplay]}_
+				but Help "Dodatkowe zmienne dla oczekującej wiadomości: eventTitle (tytuł akcji), eventMsg (skrót ew. oczekującej wiadomości)"
+		ui Lista kontaktów
+			Opis kontaktu na liście
+				_{info}_
+			Nazwa kontaktu na liście - zostanie wyświetlona pierwsza niepusta linijka.
+				__
+			Dodatkowe informacje w baloniku (tip)
+				__
+			chx on Pokazuj również domyślne pola balonika
+		ui Propozycje domyślnie wyświetlanej nazwy w oknie "Więcej"
+			__
+			but Help "Puste pole oznacza domyślne formatowanie. Poprawnie działają tylko bezpośrednie identyfikatory pól z tablicy"
+	+-------------
+	| Pro
+	+-------------
+	brak
+		| label 
+		| but Help Identyfikator
+		| but Help Nazwę specjalną 
+		| but Help Przykład 
+		
+---------------------------------------------
+	+-------------
+	| Początkujący
+	+-------------
+		
+	+-------------
+	| Prosty
+	+-------------
+		
+	+-------------
+	| Normalny
+	+-------------
+		
+	+-------------
+	| Zaawansowany
+	+-------------
+		
+	+-------------
+	| Pro
+	+-------------
+		
+		
+		
+		
+		
+		
+		
+				
+				
+		
+		
+		
+		
+		

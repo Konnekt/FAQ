@@ -1,0 +1,40 @@
+/* Szybka wskazowka
+==================================================== */	
+
+	#hint
+		{
+			background: #fff right top no-repeat;
+			margin: 0.5em;
+			padding: 1em 55px 1em 1em;
+			text-align: justify;
+			border: 1px solid #7F7F7F;
+		}		
+	#hint dt
+		{
+			display: block;
+			float: left;
+			width: 6em;
+			padding: 0.25em 0.5em 0.25em 0;
+			margin-right: 0.5em;
+			border-right: 1px dotted #000;
+			font-variant: small-caps;
+			color: #000;
+                        font-weight:bold;
+		}		
+	#hint dd { display: block; }
+	
+/* Newsy
+==================================================== */	
+
+	.news h2
+		{
+			background: #fff;
+			color: #555;
+			font-size: 1.3em;
+			clear: both;
+		}		
+	.news p { padding: 1em 0 0 0;}		
+	.news ul { padding: 0 2em;	}
+	.news a:link { color: navy; }
+	.news a:visited { color: navy;}
+	.news a:hover { color: blue;}

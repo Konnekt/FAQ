@@ -1,0 +1,59 @@
+
+	#window {
+		position: relative;
+		height: 446px;
+		width: 750px;
+		background: #EBE9ED;
+		padding: 10px 8px;
+		border-width: 4px;
+		border-style: solid;
+		-moz-border-top-colors: #303343 #5E6770 #525D68 #373B4C;
+		-moz-border-bottom-colors: #303343 #5E6770 #525D68 #373B4C;
+		-moz-border-left-colors: #303343 #5E6770 #525D68 #373B4C;
+		-moz-border-right-colors: #303343 #5E6770 #525D68 #373B4C;
+	}
+	
+	#tabset {
+		width: 200px;
+		position: absolute;
+		overflow: hidden;
+		top: 10px;
+		left: 8px;
+		height: 462px;
+	}
+	
+	#mainpg {
+		position: absolute;
+		top: 4px;
+		left: 214px;	
+	}
+	
+	.tabset_content {
+		overflow: auto;
+		width: 520px;
+		height: 433px;
+		border: 1px solid #D6D5D9;
+		-moz-border-radius: 5px;
+		position: relative;
+		display: none;
+	}
+	
+	.tabset_content_active { display: block; }
+
+	@media aural 
+		{
+			#sidebar .tabset_content,
+			#sidebar .tabset_label	{ display:block; }
+		}
+	
+	#mainpg legend {
+		font: bold 11px Tahoma;
+		color: #5C697E;
+		background: #EBE9ED;
+		display: block;
+
+	}
+	
+	#main
+	
+	
